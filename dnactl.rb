@@ -1,10 +1,10 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Dnactl < Formula
+class Dna < Formula
   desc ""
   homepage ""
-  url "https://github.com/xiaodian-inc/dna-cli/releases/download/0.0.1/dnactl"
+  url "https://github.com/xiaodian-inc/dna-cli/releases/download/0.0.1/dna"
   sha256 "9e8be4211d3690662ad4c11e4e5dd07fbd27fb8eff718ed35bbb058671170245"
   license ""
 
@@ -15,7 +15,7 @@ class Dnactl < Formula
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # system "./configure", *std_configure_args, "--disable-silent-rules"
-    bin.install "dnactl"
+    bin.install "dna"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
 
