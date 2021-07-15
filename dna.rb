@@ -5,7 +5,7 @@ class Dna < Formula
   desc ""
   homepage ""
   url "https://github.com/xiaodian-inc/dna-cli/releases/download/0.0.1/dna"
-  sha256 "9e8be4211d3690662ad4c11e4e5dd07fbd27fb8eff718ed35bbb058671170245"
+  sha256 ""
   license ""
 
   # depends_on "cmake" => :build
