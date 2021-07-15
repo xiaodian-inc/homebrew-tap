@@ -5,7 +5,7 @@ class Dnactl < Formula
   desc ""
   homepage ""
   url "https://github.com/xiaodian-inc/dna-cli/releases/download/0.0.1/dnactl"
-  sha256 "5f0318ad11f2151add82b34e69b2a826b7b13cba0c344ac637608f09e2e391f7"
+  sha256 "9e8be4211d3690662ad4c11e4e5dd07fbd27fb8eff718ed35bbb058671170245"
   license ""
 
   # depends_on "cmake" => :build
