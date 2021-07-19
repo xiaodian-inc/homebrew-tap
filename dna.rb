@@ -4,7 +4,7 @@
 class Dna < Formula
   desc ""
   homepage ""
-  url "https://github.com/xiaodian-inc/dna-cli/releases/download/0.0.1/dna"
+  url "https://github.com/xiaodian-inc/dna-cli/releases/download/latest/dna"
   sha256 ""
   license ""
 
